@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 19px;
+    line-height: 18px;
+}
+
+.fa-star-of-life {
+    color: rgb(45, 17, 146);
+}
+
+.center {
+    padding-left: calc(50% - 187px);
+    padding-right: calc(50% - 187px);
+}
+
+
+/*__HEADER__*/
+
+.header {
+    background-color: rgb(45, 17, 146);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 50%;
+}
+
+.header__icon {
+    width: 50%;
+    height: 25px;
+}
+
+/*__PROMO IMG__*/
+
+.promo__img {
+    width: 100%;
+}
+
+
+/*__INFO__*/
+
+.info {
+    display: flex;
+    bottom: 30px;
+    position: relative;
+}
+
+.info__list {
+    margin: 0 10px;
+}
+
+.list__item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: rgb(45, 17, 146);
+}
+
+@media (min-width: 575.98px){
+    .center {
+      padding-left: calc(50% - 270px);
+      padding-right: calc(50% - 270px);
+    }
+    .header__icon {
+        width: 50%;
+        height: 35px;
+    }
+    p {
+        font-size: 22px;
+        line-height: 20px;
+    }
+    .info {
+        display: flex;
+        bottom: 40px;
+        position: relative;
+    }
+  }
+  
+  @media (min-width: 767.98px){
+    .center {
+      padding-left: calc(50% - 360px);
+      padding-right: calc(50% - 360px);
+    }
+    .header__icon {
+        width: 50%;
+        height: 45px;
+    }
+    p {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .info {
+        display: flex;
+        bottom: 80px;
+        position: relative;
+    }
+  }
+  
+  @media (min-width: 991.98px) {
+    .center {
+      padding-left: calc(50% - 480px);
+      padding-right: calc(50% - 480px);
+    }
+    .header__icon {
+        width: 50%;
+        height: 55px;
+    }
+    p {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .info {
+        display: flex;
+        bottom: 120px;
+        position: relative;
+    }
+  }
+  
+  @media (min-width: 1199.98px){
+    .center {
+      padding-left: calc(50% - 590px);
+      padding-right: calc(50% - 590px);
+    }
+    p {
+        font-size: 24px;
+        line-height: 23px;
+    }
+    .header__icon {
+        width: 50%;
+        height: 85px;
+    }
+    .info {
+        bottom: -30px;
+    }
+    .content {
+        display: flex;
+    }
+}
